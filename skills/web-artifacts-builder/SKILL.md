@@ -46,6 +46,8 @@ To build powerful frontend claude.ai artifacts, follow these steps:
 
 VERY IMPORTANT: To avoid what is often referred to as "AI slop", avoid using excessive centered layouts, purple gradients, uniform rounded corners, and Inter font.
 
+BEST PRACTICE: Before building, call the **UI/UX Pro Max** skill (`ui_ux_design_system`, action `design_system`) with a description of what you're building. It returns a tailored design system — a hex color palette with CSS variables, a Google-Fonts pairing, a layout pattern, and a pre-delivery checklist. Use those exact tokens in your Tailwind config and components so the artifact looks intentional, not generic.
+
 ## Quick Start
 
 ### Step 1: Initialize Project
